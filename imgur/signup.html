@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up | Imgur</title>
+    <link rel="stylesheet" href="Styles/signup.css">
+</head>
+
+<body>
+    <a class="back" href="index.html"><img style="height:1rem ;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEUAAAD////m5ub29vYjIyOgoKD39/fz8/Ojo6MlJSUfHx+dnZ0bGxspKSkgICB8fHzc3NwXFxe7u7tjY2Nvb29VVVWWlpbCwsI5OTm0tLQPDw+Kiopqamrs7OxMTExBQUGrq6vR0dGGhoZaLh+lAAACWklEQVR4nO3c7VLqMBSF4W5EzwFFQD2i4vf9X+QBZ2SkNvlj0uWsvM8V7DW7TZq0TdcBAAAAAAAAAAAAAAAAAAAAAAAAAACgnLvr5c0/dREVLSfx4X6mrqSOh1UcLNXF1LA4iS/O1eWUd3kUMOJGXVBp017AOFNXVNjFn+jbqmsqat7v4M5KXVRJ0+8d3FFXVdD8bChgzNV1FTMb7GDEVF1YKf1pwu4qnaUCuow03+bBA5PZYpEMaDLjpzsYj+raipgNTxN7t+raikhfoiZLi0wHPQK23MFTdW1FZDroETAzTXgETD6quQS8TKwmbAJO3QeZ4RW9UcDEit4noH8H3UdR+w4ObPx++quurYjMPOgR0L6DmUHGI6B9B9fuHZynO+ix6bROB4zVpJrN9mKkgJl7sLZxboFcB6ubjJHwSRhwlIgbacCI+9oBn8UBI14qJ7xSB6zeRO1duPdUOaE6X1R/Ya6OFyT8Mf/7UD+WXlVOqJ8PnysnlD/TbGoH7Drlg3f9u3BPurYYI6B0ffg6SkDZGv9tux4pYAP7NA3stTWwX7qLSBcN2L97aqKL9u+AG3iP30YX3b+naaKL9t+1NfBtYgOfQDfwCW0DX+o38LcFXfSQ+j3WKGLmMdxleyqzXnQ5NSL974zJP6S5fVST/4AzKw2Xf7kzw426sHJSk4bPqRGpVb/NqRFdA2ebDK/6fUaaDwPz4ru6psIW/S6eqCsqrr/qv1YXVN7xetHlyfvI1zP33G7CT4dzExfqSupxP/sSAAAAAAAAAAAAAAAAAAAAAAAAAADgt/oPPIkcVNWYeXgAAAAASUVORK5CYII=" alt="">
+        Back to Imgur</a>
+            <img class="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Imgur_Logo_Light.svg/1280px-Imgur_Logo_Light.svg.png">
+            <div class="main">
+                <h5 class="link_head">Register with</h5>
+                <div class="links">
+                    <button class="fb"><img src="media/facebook-32.png"></button>
+                    <button class="tw"><img src="media/twitter-32.png"></button>
+                    <button class="ap"><img src="media/apple-32.png"></button>
+                    <button class="google"><img src="media/google-plus-32.png"></button>
+                    <button class="yahoo"><img src="media/yahoo.png"></button>
+                </div>
+                <h5 class="h5">or with imgur</h5>
+                <form class="form" id="myForm">
+                    <input class="input" id="users" type="text"value=""  placeholder="Username"><br />
+                    <input class="input" id="email" type="email" value="" placeholder="Email"><br />
+                    <input class="input" id="password" type="password" value="" placeholder="Password"><br />
+                    <input class="input" id="retype" type="password" value="" placeholder="Re-Type Password"><br />
+                    <div>
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                          </datalist>
+                        <input class="input"  list="browsers" id="browsers" type="number" value="" placeholder="Phone Number">
+                    </div>
+                   <br />
+                    <h5 class="link_head">Standard message and data rates may apply.</h5>
+                    <h5 class="link_head">Why do I have to verify my phone?</h5>
+                </form>
+                <button class="next" onclick="registered(event)">Next</button>
+                <a href="signin.html"><button class="signin">Sign in</button></a>
+
+                <script src="Scripts/signup.js"></script>
+            </div>
+</body>
+
+</html>
